@@ -124,6 +124,7 @@ li + li { margin-top: 0.45rem; }
 
 .card-grid { display: grid; gap: 1.25rem; }
 .two-column-cards { grid-template-columns: repeat(2, 1fr); }
+.project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .timeline-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 .timeline-summary > div { padding: 1rem; background: var(--soft); border-radius: 10px; }
 .timeline-summary strong, .timeline-summary span { display: block; }
@@ -158,7 +159,7 @@ li + li { margin-top: 0.45rem; }
 @media (max-width: 860px) {
   .hero-grid, .inline-heading, .honors-layout, .contact-layout { grid-template-columns: 1fr; }
   .stat-grid, .metric-grid { grid-template-columns: repeat(2, 1fr); }
-  .three-column, .timeline-summary { grid-template-columns: 1fr; }
+  .three-column, .timeline-summary, .project-grid { grid-template-columns: 1fr; }
   .contact-actions { justify-content: flex-start; }
 }
 
