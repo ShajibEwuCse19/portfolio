@@ -68,7 +68,7 @@ li + li { margin-top: 0.45rem; }
 .inline-heading { max-width: none; display: grid; grid-template-columns: minmax(250px, 0.7fr) minmax(0, 1.3fr); gap: 2rem; align-items: end; margin-bottom: 0; }
 .inline-heading p:last-child { margin-bottom: 0.3rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; }
 
-.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 1rem; }
 .stat { min-height: 130px; display: flex; flex-direction: column; justify-content: center; padding: 1.25rem; border: 1px solid var(--line); border-radius: var(--radius); }
 .stat strong { color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 2.25rem; line-height: 1; }
 .stat span { margin-top: 0.5rem; color: var(--muted); font-size: 0.9rem; }
