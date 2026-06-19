@@ -26,8 +26,6 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Validate static site
         run: python .github/scripts/validate_site.py
