@@ -156,7 +156,7 @@ li + li { margin-top: 0.45rem; }
 .skills-details { margin-top: 1rem; }
 
 .contact-section { color: var(--white); background: var(--navy-dark); }
-.contact-section h2, .contact-section .eyebrow { color: var(--white); }
+.contact-section h2, .contact-section h3, .contact-section .eyebrow { color: var(--white); }
 .contact-section p { color: #dbe6f1; }
 .contact-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr); gap: 2rem; align-items: center; }
 .contact-actions { justify-content: flex-end; }
